@@ -7,6 +7,7 @@
 const arrayElementByIndex = (arr,index)=> arr[index];
 
 const arr =["apple","orange","peach"];
+
 console.log(arrayElementByIndex(arr,2));
 
 
@@ -58,7 +59,7 @@ const weather = (code) =>{
 weather("SS");
 
 //SS
- //песчаная буря (видимость менее 10 км)
+//песчаная буря (видимость менее 10 км)
 
 
 
