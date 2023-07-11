@@ -48,18 +48,15 @@ const decode= (code) =>{ switch(code){
     case "DS":
         return console.log("пыльная буря (видимость менее 10 км)");
     case "SS":
-        return console.log("песчаная буря (видимость менее 10 км)");
+        return "песчаная буря (видимость менее 10 км)";
     default: 
         return console.log(" ");
 }
 };
-const weather = (code) =>{ 
-    console.log(code),decode(code);
+const weather = (code,decode)=> {return decode(code);
 };
-weather("SS");
+weather("HZ",decode);
 
-//SS
-//песчаная буря (видимость менее 10 км)
 
 
 
